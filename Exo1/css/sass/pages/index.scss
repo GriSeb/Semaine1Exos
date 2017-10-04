@@ -131,7 +131,7 @@ body {
 
     }
     .info {
-        width: 35%;
+        width: 38%;
         height: 388px;
         display: inline-block;
         margin-left: 10px;
@@ -172,11 +172,12 @@ body {
                         font-size: 12px;
                     }
                     input:first-child {
-                        width:60%;
+                        width:52%;
                     }
                     input:last-child {
                         width:28%;
                         background-color: #811;
+                        box-shadow: 1px 1px 3px #a11;
                         color: white;
                         font-family: Arial;
                         letter-spacing: 1px;

@@ -122,7 +122,7 @@ body {
       font-family: Arial;
       color: #311; }
   body .info {
-    width: 35%;
+    width: 38%;
     height: 388px;
     display: inline-block;
     margin-left: 10px;
@@ -152,10 +152,11 @@ body {
       letter-spacing: 2px;
       font-size: 12px; }
     body .info > div:last-of-type div form input:first-child {
-      width: 60%; }
+      width: 52%; }
     body .info > div:last-of-type div form input:last-child {
       width: 28%;
       background-color: #811;
+      box-shadow: 1px 1px 3px #a11;
       color: white;
       font-family: Arial;
       letter-spacing: 1px;
