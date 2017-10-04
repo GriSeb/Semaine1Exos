@@ -1,0 +1,15 @@
+@font-face {
+    @include font("GINKO/test", "../fonts/GINKO.TTF");
+}
+
+@font-face {
+    @include font("Melbourne", "../fonts/Melbourne_regular_basic.otf");
+}
+
+@font-face {
+    @include font("Melbourne", "../fonts/Melbourne light basic.otf", lighter, normal);
+}
+
+@font-face {
+    @include font("Melbourne", "../fonts/Melbourne bold basic.otf", bold, normal);
+}

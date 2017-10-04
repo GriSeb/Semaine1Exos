@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("../images/bg_header.jpg") top center no-repeat, url("../images/bg_body.jpg");
+    header {
+        background-color:darkolivegreen;
+        opacity: 0.8;
+        height: 25px;
+        nav {
+            width: 500px;
+            margin-left: 50%;
+            ul {
+                li {
+                    list-style-type: none;
+                    font-family: "Melbourne";
+                    display: inline-block;
+                    padding: 2px;
+                    margin: 0px 12px;
+                }                
+            }
+        }
+    }
+    .container {
+        width:950px;
+        margin: auto;
+        
+    }
+    .header_section > img:first-child  {
+        display: inline-block;
+        margin-top: 25px;
+    }
+    figure {
+        margin-top:115px;
+         img:last-of-type{
+            vertical-align: top;
+        }
+        figcaption {
+            margin-top: -50px;
+            width: 200px;
+            text-align: right;
+            margin: -50px 0px 0px 73%;
+        }
+    }
+}
+
+p {
+    color: $color-blue;
+    font-family: "GINKO/test";
+}
+
+h2 {
+    font-family: "Melbourne";
+}
