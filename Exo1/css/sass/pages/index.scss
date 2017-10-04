@@ -132,8 +132,10 @@ body {
     }
     .info {
         width: 35%;
+        height: 388px;
         display: inline-block;
         margin-left: 10px;
+        background: url(../images/pot_newsletter.png) bottom right no-repeat;
         > div:first-of-type {
             box-sizing: border-box;
             h2 {
@@ -143,7 +145,7 @@ body {
             div {
                 width: 48%;
                 display: inline-block;
-                margin-bottom: 30px;
+                margin-bottom: 12px;
 
                 ul {
                     list-style-image: url(../images/puce_feuille.png);
@@ -187,6 +189,41 @@ body {
         p {
             margin-top: 10px;
             font-size: 13px;
+        }
+    }
+    .actu {
+        height: 410px;
+    }
+    footer {
+        background: url(../images/bg_footer.png);
+        margin-bottom: 30px;
+        div {
+            display: inline-block;
+        }
+        div:first-of-type {
+            width: 25%;
+            padding: 9px 0px;
+            margin-left: 60px;
+            box-sizing: border-box;
+            p {
+                display: inline-block;
+                font-family: Arial, sans-serif;
+                font-size: 12px;
+                font-weight: bold;
+            }
+            img {
+                vertical-align: text-bottom;
+            }
+        }
+        div:last-of-type{
+            width: 68%;
+            p {
+                font-size: 12px;
+                text-align: right;
+                a {
+                    @extend .text-green;
+                }
+            }
         }
     }
 }
