@@ -5,6 +5,9 @@
 
 body {
     background: url("../images/bg_header.jpg") top center no-repeat, url("../images/bg_body.jpg");
+    h2 {
+        font-family: "Melbourne", sans-serif;
+    }
     header {
         background-color:darkolivegreen;
         opacity: 0.8;
@@ -42,15 +45,91 @@ body {
             width: 200px;
             text-align: right;
             margin: -50px 0px 0px 73%;
+            a {
+                @extend .text-green-no-underline;
+            }
         }
     }
-}
+    .header_text {
+        height: 220px;
+        margin-top: 50px;
+        article {
+            display: inline-block;
+            width: 30%;
+            vertical-align: top;
+            margin-right: 25px;
+            box-sizing: border-box;
+            h2 {
+                display: inline-block; 
+                margin-left: 3px;
+                margin-bottom: 25px;
+            }
+            img {
+                vertical-align:text-bottom;
+            }
+            p {
+                line-height: 14px;
+            }
+        }
+    }
+    .article {
+        width: 60%;
+        height: 388px;
+        display: inline-block;
+        background: url(../images/bg_news.jpg) no-repeat;
+        vertical-align: top;
+        article:first-of-type {
+            margin-top: 70px;
+        }
+        article {
+            vertical-align: top;
+            div {
+                display: inline-block;
+                width: 12%;
+                vertical-align: top;
+                height: 100px;
+                p {
+                    span {
+                        font-family: "GINKO";
+                    }
+                }
+                
+            }
+            div:first-of-type {
+                background: url(../images/bg_date.png) right center no-repeat;
+                p {
+                    text-align: right;
+                    padding-top: 30px;
+                    padding-right: 10px;                   
+                    color: #733;
 
-p {
-    color: $color-blue;
-    font-family: "GINKO/test";
-}
+                }
+            }
+            div:last-of-type {
+                width: 85%;
+                p {
+                    margin: 10px 0px;
+                    font-size: 14px;
+                }
+                a {
+                    color: #911;
+                    font-size: 12px;
+                    text-decoration: none;
+                    font-style: italic;
+                    font-weight: 600;
+                }
+            }
+        }
+        h3 {
+            font-size: 14px;
+            font-weight: bold;
+            font-family: Arial;
+            color: #311;
+        }
 
-h2 {
-    font-family: "Melbourne";
+    }
+    .info {
+        width: 30%;
+        display: inline-block;
+    }
 }

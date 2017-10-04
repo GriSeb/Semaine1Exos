@@ -1,5 +1,13 @@
+.text-green, .text-green-no-underline, body figure figcaption a {
+  font-size: 12px;
+  color: darkolivegreen;
+  font-weight: bold; }
+
+.text-green-no-underline, body figure figcaption a {
+  text-decoration: none; }
+
 @font-face {
-  font-family: "GINKO/test";
+  font-family: "GINKO";
   src: url("../fonts/GINKO.TTF");
   font-weight: normal;
   font-style: normal; }
@@ -24,6 +32,8 @@
 
 body {
   background: url("../images/bg_header.jpg") top center no-repeat, url("../images/bg_body.jpg"); }
+  body h2 {
+    font-family: "Melbourne", sans-serif; }
   body header {
     background-color: darkolivegreen;
     opacity: 0.8;
@@ -52,12 +62,65 @@ body {
       width: 200px;
       text-align: right;
       margin: -50px 0px 0px 73%; }
-
-p {
-  color: #228;
-  font-family: "GINKO/test"; }
-
-h2 {
-  font-family: "Melbourne"; }
+  body .header_text {
+    height: 220px;
+    margin-top: 50px; }
+    body .header_text article {
+      display: inline-block;
+      width: 30%;
+      vertical-align: top;
+      margin-right: 25px;
+      box-sizing: border-box; }
+      body .header_text article h2 {
+        display: inline-block;
+        margin-left: 3px;
+        margin-bottom: 25px; }
+      body .header_text article img {
+        vertical-align: text-bottom; }
+      body .header_text article p {
+        line-height: 14px; }
+  body .article {
+    width: 60%;
+    height: 388px;
+    display: inline-block;
+    background: url(../images/bg_news.jpg) no-repeat;
+    vertical-align: top; }
+    body .article article:first-of-type {
+      margin-top: 70px; }
+    body .article article {
+      vertical-align: top; }
+      body .article article div {
+        display: inline-block;
+        width: 12%;
+        vertical-align: top;
+        height: 100px; }
+        body .article article div p span {
+          font-family: "GINKO"; }
+      body .article article div:first-of-type {
+        background: url(../images/bg_date.png) right center no-repeat; }
+        body .article article div:first-of-type p {
+          text-align: right;
+          padding-top: 30px;
+          padding-right: 10px;
+          color: #733; }
+      body .article article div:last-of-type {
+        width: 85%; }
+        body .article article div:last-of-type p {
+          margin: 10px 0px;
+          font-size: 14px; }
+        body .article article div:last-of-type a {
+          color: #911;
+          font-size: 12px;
+          text-decoration: none;
+          font-style: italic;
+          font-weight: 600; }
+    body .article h3 {
+      font-size: 14px;
+      font-weight: bold;
+      font-family: Arial;
+      color: #311; }
+  body .info {
+    width: 30%;
+    display: inline-block; }
 
 /*# sourceMappingURL=style.css.map */
