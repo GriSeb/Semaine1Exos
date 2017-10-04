@@ -31,6 +31,7 @@
   padding: 0; }
 
 body {
+  color: #444;
   background: url("../images/bg_header.jpg") top center no-repeat, url("../images/bg_body.jpg"); }
   body h2 {
     font-family: "Melbourne", sans-serif; }
@@ -107,7 +108,8 @@ body {
         width: 85%; }
         body .article article div:last-of-type p {
           margin: 10px 0px;
-          font-size: 14px; }
+          font-size: 14px;
+          color: black; }
         body .article article div:last-of-type a {
           color: #911;
           font-size: 12px;
@@ -120,7 +122,44 @@ body {
       font-family: Arial;
       color: #311; }
   body .info {
-    width: 30%;
-    display: inline-block; }
+    width: 35%;
+    display: inline-block;
+    margin-left: 10px; }
+    body .info > div:first-of-type {
+      box-sizing: border-box; }
+      body .info > div:first-of-type h2 {
+        margin-bottom: -5px; }
+      body .info > div:first-of-type div {
+        width: 48%;
+        display: inline-block;
+        margin-bottom: 30px; }
+        body .info > div:first-of-type div ul {
+          list-style-image: url(../images/puce_feuille.png);
+          padding-left: 30px;
+          padding-top: 15px;
+          color: darkolivegreen;
+          font-family: Arial;
+          font-size: 14px;
+          font-weight: bold; }
+    body .info > div:last-of-type div form input {
+      display: block;
+      margin: 10px 0px;
+      border-radius: 3px;
+      padding: 2px;
+      font-family: "Melbourne";
+      letter-spacing: 2px;
+      font-size: 12px; }
+    body .info > div:last-of-type div form input:first-child {
+      width: 60%; }
+    body .info > div:last-of-type div form input:last-child {
+      width: 28%;
+      background-color: #811;
+      color: white;
+      font-family: Arial;
+      letter-spacing: 1px;
+      padding: 2px 5px; }
+    body .info p {
+      margin-top: 10px;
+      font-size: 13px; }
 
 /*# sourceMappingURL=style.css.map */

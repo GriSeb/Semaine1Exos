@@ -4,6 +4,7 @@
 }
 
 body {
+    color: #444;
     background: url("../images/bg_header.jpg") top center no-repeat, url("../images/bg_body.jpg");
     h2 {
         font-family: "Melbourne", sans-serif;
@@ -110,6 +111,7 @@ body {
                 p {
                     margin: 10px 0px;
                     font-size: 14px;
+                    color: black;
                 }
                 a {
                     color: #911;
@@ -129,7 +131,62 @@ body {
 
     }
     .info {
-        width: 30%;
+        width: 35%;
         display: inline-block;
+        margin-left: 10px;
+        > div:first-of-type {
+            box-sizing: border-box;
+            h2 {
+                margin-bottom: -5px;
+            }
+           
+            div {
+                width: 48%;
+                display: inline-block;
+                margin-bottom: 30px;
+
+                ul {
+                    list-style-image: url(../images/puce_feuille.png);
+                    padding-left: 30px;
+                    padding-top: 15px;
+                    color: darkolivegreen;
+                    font-family: Arial;
+                    font-size: 14px;
+                    font-weight: bold;
+
+                }
+            }
+        }
+        > div:last-of-type {
+            div {
+                form {
+                    input {
+                        display: block;
+                        margin: 10px 0px;
+                        border-radius: 3px;
+                        padding: 2px;
+                        font-family: "Melbourne";
+                        letter-spacing: 2px;
+                        font-size: 12px;
+                    }
+                    input:first-child {
+                        width:60%;
+                    }
+                    input:last-child {
+                        width:28%;
+                        background-color: #811;
+                        color: white;
+                        font-family: Arial;
+                        letter-spacing: 1px;
+                        padding: 2px 5px;
+                    }
+                }
+            }
+            
+        }      
+        p {
+            margin-top: 10px;
+            font-size: 13px;
+        }
     }
 }
