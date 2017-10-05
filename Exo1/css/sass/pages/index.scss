@@ -10,8 +10,8 @@ body {
         font-family: "Melbourne", sans-serif;
     }
     header {
-        background-color:darkolivegreen;
-        opacity: 0.8;
+        background-color:rgba(95, 127, 57, 0.5);
+
         height: 25px;
         nav {
             width: 500px;
@@ -21,10 +21,17 @@ body {
                     list-style-type: none;
                     font-family: "Melbourne";
                     display: inline-block;
-                    padding: 2px;
-                    margin: 0px 12px;
-                }                
+                    color: white;
+                    width: 94px;
+                    text-align: center;
+                }
+                li:last-of-type {
+                    margin-left: 11px;
+                }
             }
+        }
+        li:hover {
+            background: url(../images/menu_hover.png) no-repeat;
         }
     }
     .container {

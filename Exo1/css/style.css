@@ -36,8 +36,7 @@ body {
   body h2 {
     font-family: "Melbourne", sans-serif; }
   body header {
-    background-color: darkolivegreen;
-    opacity: 0.8;
+    background-color: rgba(95, 127, 57, 0.5);
     height: 25px; }
     body header nav {
       width: 500px;
@@ -46,8 +45,13 @@ body {
         list-style-type: none;
         font-family: "Melbourne";
         display: inline-block;
-        padding: 2px;
-        margin: 0px 12px; }
+        color: white;
+        width: 94px;
+        text-align: center; }
+      body header nav ul li:last-of-type {
+        margin-left: 11px; }
+    body header li:hover {
+      background: url(../images/menu_hover.png) no-repeat; }
   body .container {
     width: 950px;
     margin: auto; }
