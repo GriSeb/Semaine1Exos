@@ -162,31 +162,76 @@ body {
                     .right {
                         width: 48%;
                         display: inline-block;
-                        iframe {
+                    }
+                }
+            }
+        }
+
+    }
+    .container-2 {
+        background-color: $background-color;
+        footer {
+            width: 970px;
+            margin: 0px auto;
+                div.div-footer {
+                    margin-top: 45px;
+                    vertical-align: top;
+                    > div {
+                        margin-top: 40px;
+                        width: 23%;
+                        height: 340px;
+                        display: inline-block;
+                        vertical-align: inherit;
+                        margin-right: 21px;
+                        h3 {
+                            color: $color-white;
+                        }
+                        &:last-of-type {
+                            margin-right: 0px;
+                        }
+                        div {
+                            margin-top: 30px;
+
+                            p {
+                                &:first-of-type {
+                                    margin-top: 20px;
+                                }
+                                font-size: 13px;
+                                color:  $color-gray;
+                                span {
+                                    color: $color-white;
+                                }
+                            }
+                        }
+                    }
+                    div.footer-1 {
+                        div {
+                            p {
+                                font-style: italic;
+                            }
+                        }
+                        img:not(:first-child) {
+                            margin-top: 10px;
+                        }
+                        img:nth-of-type(2)
+                        {
+                            background-size: 50px 50px;
+                        }
+                    }
+                    div.footer-2 {
+                        p {
+                            font-size: 12px;
+                            margin-bottom: 10px;
+                        }
+                    }
+                    div.footer-3 {
+                        p {
+                            padding-bottom: 12px;
+                            border-bottom: 1px dotted $color-gray;
+                            margin-top: 12px;
                         }
                     }
                 }
             }
-        }
-        footer {
-            background-color: $background-color;
-            div {
-                margin-top: 45px;
-                vertical-align: top;
-                div {
-                    width: 23%;
-                    height: 340px;
-                    display: inline-block;
-                    vertical-align: inherit;
-                    margin-right: 16px;
-                    h3 {
-                        color: $color-white;
-                    }
-                    div {
-                        margin-top: 35px;
-                    }
-                }
-            }
-        }
     }
 }

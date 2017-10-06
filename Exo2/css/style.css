@@ -125,20 +125,46 @@ body {
         body .container main section:nth-of-type(3) div .right {
           width: 48%;
           display: inline-block; }
-    body .container footer {
-      background-color: #333; }
-      body .container footer div {
+  body .container-2 {
+    background-color: #333; }
+    body .container-2 footer {
+      width: 970px;
+      margin: 0px auto; }
+      body .container-2 footer div.div-footer {
         margin-top: 45px;
         vertical-align: top; }
-        body .container footer div div {
+        body .container-2 footer div.div-footer > div {
+          margin-top: 40px;
           width: 23%;
           height: 340px;
           display: inline-block;
           vertical-align: inherit;
-          margin-right: 16px; }
-          body .container footer div div h3 {
+          margin-right: 21px; }
+          body .container-2 footer div.div-footer > div h3 {
             color: #f3f3f3; }
-          body .container footer div div div {
-            margin-top: 35px; }
+          body .container-2 footer div.div-footer > div:last-of-type {
+            margin-right: 0px; }
+          body .container-2 footer div.div-footer > div div {
+            margin-top: 30px; }
+            body .container-2 footer div.div-footer > div div p {
+              font-size: 13px;
+              color: #848484; }
+              body .container-2 footer div.div-footer > div div p:first-of-type {
+                margin-top: 20px; }
+              body .container-2 footer div.div-footer > div div p span {
+                color: #f3f3f3; }
+        body .container-2 footer div.div-footer div.footer-1 div p {
+          font-style: italic; }
+        body .container-2 footer div.div-footer div.footer-1 img:not(:first-child) {
+          margin-top: 10px; }
+        body .container-2 footer div.div-footer div.footer-1 img:nth-of-type(2) {
+          background-size: 50px 50px; }
+        body .container-2 footer div.div-footer div.footer-2 p {
+          font-size: 12px;
+          margin-bottom: 10px; }
+        body .container-2 footer div.div-footer div.footer-3 p {
+          padding-bottom: 12px;
+          border-bottom: 1px dotted #848484;
+          margin-top: 12px; }
 
 /*# sourceMappingURL=style.css.map */
