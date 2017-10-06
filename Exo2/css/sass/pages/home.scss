@@ -215,7 +215,9 @@ body {
                         }
                         img:nth-of-type(2)
                         {
-                            background-size: 50px 50px;
+                            background-size: 0px -50px;
+                            height: 50px;
+                            width: 50px;
                         }
                     }
                     div.footer-2 {
@@ -229,6 +231,11 @@ body {
                             padding-bottom: 12px;
                             border-bottom: 1px dotted $color-gray;
                             margin-top: 12px;
+                        }
+                    }
+                    div.footer-4 {
+                        img {
+                            width: 23%;
                         }
                     }
                 }
