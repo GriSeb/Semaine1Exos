@@ -171,13 +171,19 @@ body {
         footer {
             background-color: $background-color;
             div {
-                margin-top: 50px;
+                margin-top: 45px;
+                vertical-align: top;
                 div {
                     width: 23%;
+                    height: 340px;
                     display: inline-block;
+                    vertical-align: inherit;
                     margin-right: 16px;
                     h3 {
                         color: $color-white;
+                    }
+                    div {
+                        margin-top: 35px;
                     }
                 }
             }

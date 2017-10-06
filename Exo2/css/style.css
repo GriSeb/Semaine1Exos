@@ -128,12 +128,17 @@ body {
     body .container footer {
       background-color: #333; }
       body .container footer div {
-        margin-top: 50px; }
+        margin-top: 45px;
+        vertical-align: top; }
         body .container footer div div {
           width: 23%;
+          height: 340px;
           display: inline-block;
+          vertical-align: inherit;
           margin-right: 16px; }
           body .container footer div div h3 {
             color: #f3f3f3; }
+          body .container footer div div div {
+            margin-top: 35px; }
 
 /*# sourceMappingURL=style.css.map */
