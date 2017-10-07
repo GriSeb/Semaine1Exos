@@ -179,7 +179,7 @@ body {
                     > div {
                         margin-top: 40px;
                         width: 23%;
-                        height: 340px;
+                        height: 270px;
                         display: inline-block;
                         vertical-align: inherit;
                         margin-right: 21px;
@@ -268,6 +268,15 @@ body {
                         }
                     }
                 }
+            div.end-footer {
+                background-color: #1f1f1f;
+                color: $color-white;
+                padding: 13px 20px;
+                font-size: 14px;
+                .right {
+                    margin-left: 428px;
+                }
+            }
             }
     }
 }

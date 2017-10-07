@@ -136,7 +136,7 @@ body {
         body .container-2 footer div.div-footer > div {
           margin-top: 40px;
           width: 23%;
-          height: 340px;
+          height: 270px;
           display: inline-block;
           vertical-align: inherit;
           margin-right: 21px; }
@@ -190,5 +190,12 @@ body {
           margin-top: 12px; }
         body .container-2 footer div.div-footer div.footer-4 img {
           width: 23%; }
+      body .container-2 footer div.end-footer {
+        background-color: #1f1f1f;
+        color: #f3f3f3;
+        padding: 13px 20px;
+        font-size: 14px; }
+        body .container-2 footer div.end-footer .right {
+          margin-left: 428px; }
 
 /*# sourceMappingURL=style.css.map */
