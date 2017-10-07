@@ -155,12 +155,32 @@ body {
                 color: #f3f3f3; }
         body .container-2 footer div.div-footer div.footer-1 div p {
           font-style: italic; }
+        body .container-2 footer div.div-footer div.footer-1 div ul {
+          margin-top: 10px; }
+          body .container-2 footer div.div-footer div.footer-1 div ul li {
+            list-style: none;
+            height: 46px;
+            width: 47px;
+            display: inline-block;
+            background: url("../img/social-icons.png") no-repeat; }
+            body .container-2 footer div.div-footer div.footer-1 div ul li.icon-1 {
+              background-position: left top; }
+              body .container-2 footer div.div-footer div.footer-1 div ul li.icon-1:hover {
+                background-position: left bottom; }
+            body .container-2 footer div.div-footer div.footer-1 div ul li.icon-2 {
+              background-position: -52px top; }
+              body .container-2 footer div.div-footer div.footer-1 div ul li.icon-2:hover {
+                background-position: -52px bottom; }
+            body .container-2 footer div.div-footer div.footer-1 div ul li.icon-3 {
+              background-position: -103px top; }
+              body .container-2 footer div.div-footer div.footer-1 div ul li.icon-3:hover {
+                background-position: -103px bottom; }
+            body .container-2 footer div.div-footer div.footer-1 div ul li.icon-4 {
+              background-position: right top; }
+              body .container-2 footer div.div-footer div.footer-1 div ul li.icon-4:hover {
+                background-position: right bottom; }
         body .container-2 footer div.div-footer div.footer-1 img:not(:first-child) {
           margin-top: 10px; }
-        body .container-2 footer div.div-footer div.footer-1 img:nth-of-type(2) {
-          background-size: 0px -50px;
-          height: 50px;
-          width: 50px; }
         body .container-2 footer div.div-footer div.footer-2 p {
           font-size: 12px;
           margin-bottom: 10px; }
