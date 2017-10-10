@@ -136,7 +136,7 @@ body {
         body .container-2 footer div.div-footer > div {
           margin-top: 40px;
           width: 23%;
-          height: 340px;
+          height: 270px;
           display: inline-block;
           vertical-align: inherit;
           margin-right: 21px; }
@@ -155,12 +155,32 @@ body {
                 color: #f3f3f3; }
         body .container-2 footer div.div-footer div.footer-1 div p {
           font-style: italic; }
+        body .container-2 footer div.div-footer div.footer-1 div ul {
+          margin-top: 10px; }
+          body .container-2 footer div.div-footer div.footer-1 div ul li {
+            list-style: none;
+            height: 46px;
+            width: 47px;
+            display: inline-block;
+            background: url("../img/social-icons.png") no-repeat; }
+            body .container-2 footer div.div-footer div.footer-1 div ul li.icon-1 {
+              background-position: left top; }
+              body .container-2 footer div.div-footer div.footer-1 div ul li.icon-1:hover {
+                background-position: left bottom; }
+            body .container-2 footer div.div-footer div.footer-1 div ul li.icon-2 {
+              background-position: -52px top; }
+              body .container-2 footer div.div-footer div.footer-1 div ul li.icon-2:hover {
+                background-position: -52px bottom; }
+            body .container-2 footer div.div-footer div.footer-1 div ul li.icon-3 {
+              background-position: -103px top; }
+              body .container-2 footer div.div-footer div.footer-1 div ul li.icon-3:hover {
+                background-position: -103px bottom; }
+            body .container-2 footer div.div-footer div.footer-1 div ul li.icon-4 {
+              background-position: right top; }
+              body .container-2 footer div.div-footer div.footer-1 div ul li.icon-4:hover {
+                background-position: right bottom; }
         body .container-2 footer div.div-footer div.footer-1 img:not(:first-child) {
           margin-top: 10px; }
-        body .container-2 footer div.div-footer div.footer-1 img:nth-of-type(2) {
-          background-size: 0px -50px;
-          height: 50px;
-          width: 50px; }
         body .container-2 footer div.div-footer div.footer-2 p {
           font-size: 12px;
           margin-bottom: 10px; }
@@ -170,7 +190,17 @@ body {
           margin-top: 12px; }
         body .container-2 footer div.div-footer div.footer-4 img {
           width: 23%; }
+<<<<<<< HEAD
       body .container-2 footer .foofooter {
         background-color: aqua; }
+=======
+      body .container-2 footer div.end-footer {
+        background-color: #1f1f1f;
+        color: #f3f3f3;
+        padding: 13px 20px;
+        font-size: 14px; }
+        body .container-2 footer div.end-footer .right {
+          margin-left: 428px; }
+>>>>>>> 4576caa891c514e00a7febd92ad9787bf472aecd
 
 /*# sourceMappingURL=style.css.map */

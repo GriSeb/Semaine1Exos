@@ -179,7 +179,7 @@ body {
                     > div {
                         margin-top: 40px;
                         width: 23%;
-                        height: 340px;
+                        height: 270px;
                         display: inline-block;
                         vertical-align: inherit;
                         margin-right: 21px;
@@ -208,17 +208,46 @@ body {
                         div {
                             p {
                                 font-style: italic;
+                            }                       
+                            ul {
+                                margin-top: 10px;    
+                                li {
+                                list-style: none;
+                                height: 46px;
+                                width: 47px;
+                                display: inline-block;
+                                background: url("../img/social-icons.png") no-repeat;
+                                    &.icon-1 {
+                                        background-position: left top;
+                                        &:hover {
+                                            background-position: left bottom;
+                                        }
+                                    }
+                                    &.icon-2 {
+                                        background-position: -52px top;
+                                        &:hover {
+                                            background-position: -52px bottom;
+                                        }
+                                    }
+                                    &.icon-3 {
+                                        background-position: -103px top;
+                                        &:hover {
+                                            background-position: -103px bottom;
+                                        }
+                                    }
+                                    &.icon-4 {
+                                        background-position: right top;
+                                        &:hover {
+                                            background-position: right bottom;
+                                        }
+                                    }
+                                }
                             }
                         }
                         img:not(:first-child) {
                             margin-top: 10px;
                         }
-                        img:nth-of-type(2)
-                        {
-                            background-size: 0px -50px;
-                            height: 50px;
-                            width: 50px;
-                        }
+
                     }
                     div.footer-2 {
                         p {
@@ -239,8 +268,19 @@ body {
                         }
                     }
                 }
+<<<<<<< HEAD
             .foofooter {
                 background-color: aqua;
+=======
+            div.end-footer {
+                background-color: #1f1f1f;
+                color: $color-white;
+                padding: 13px 20px;
+                font-size: 14px;
+                .right {
+                    margin-left: 428px;
+                }
+>>>>>>> 4576caa891c514e00a7febd92ad9787bf472aecd
             }
             }
     }
