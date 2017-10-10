@@ -170,5 +170,7 @@ body {
           margin-top: 12px; }
         body .container-2 footer div.div-footer div.footer-4 img {
           width: 23%; }
+      body .container-2 footer .foofooter {
+        background-color: aqua; }
 
 /*# sourceMappingURL=style.css.map */
